@@ -1,0 +1,6 @@
+.description {
+  display: flex;
+  margin: 100px auto;
+  margin-bottom: 0;
+  justify-content: center;
+}
