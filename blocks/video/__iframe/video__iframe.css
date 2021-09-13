@@ -1,8 +1,6 @@
 .video__iframe {
   width: 515px;
   height: 316px;
+  border: none;
 }
-.video__iframe:hover {
-  opacity: .5;
-  transition: .5s;
-}
+
