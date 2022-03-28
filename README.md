@@ -8,4 +8,4 @@ ___
 
 Далее планируется добавить данному сайту адаптивности.
 
-* [Ссылка на проект в Githab]( https://kishlyanovp.github.io/how-to-learn/main)
+* [Ссылка на проект в Githab]( https://kishlyanovp.github.io/how-to-learn/index.html)
