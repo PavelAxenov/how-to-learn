@@ -1,10 +1,7 @@
 .two-columns__main-text {
-    
-    max-width:80%;
-  }
-
-@media screen and (max-width: 612px){
-  .two-columns__main-text {
-      max-width:100%;}}
-  
-
+  width: 80%;
+  min-width: 784px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}

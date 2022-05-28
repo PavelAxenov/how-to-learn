@@ -1,11 +1,16 @@
+
 .table__text {
-    font-size: 18px;
-    line-height: 1.2;
-    font-weight: normal;
-    margin: 20px 0 0;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
-@media screen and (max-width: 376px){
-    .table__text {
-        font-size: 25px;}}
-    
+.table__text:last-of-type {
+  margin-top: 20px;
+}
+
+.table__text:first-of-type {
+  margin-top: 20px;
+}

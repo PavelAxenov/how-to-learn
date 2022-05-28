@@ -1,12 +1,17 @@
-@keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to{
-      transform: rotate(360deg);
-    }
-  }
 
 .rotation {
-  animation: rotation 20s linear infinite;
+  animation-name: rotation;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+@keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
 }

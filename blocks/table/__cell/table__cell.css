@@ -1,16 +1,6 @@
 .table__cell {
-    width:250px;
-    margin:60px 0 0;
-    list-style-type: none;
-    padding-left:0;
-  }
-
-@media screen and (max-width: 497px){
-    .table__cell {
-       text-align: center;}}
-    
-@media screen and (max-width: 376px){
-    .table__cell {
-       max-width:350px;}}
-     
-    
+  width: 250px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
