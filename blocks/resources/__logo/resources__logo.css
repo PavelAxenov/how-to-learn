@@ -1,10 +1,12 @@
 .resources__logo {
-  width: 270px;
-  height: 38px;
-  margin-top: 80px;
-  transition: .5s;
-}
+    width: 270px;
+    max-width: 100%;
 
-.resources__logo:hover {
-  opacity: .5;
-}
+    height: 38px;
+    
+  }
+
+@media screen and (max-width: 736px) {
+    .resources__logo {
+        margin-bottom: 30px;}}
+    

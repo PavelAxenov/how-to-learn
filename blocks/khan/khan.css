@@ -1,7 +1,13 @@
 .khan {
-  display: flex;
-  flex-direction: column;
-  margin:0 auto;
-  align-items: center;
-  background-color: #f2f2f2;
-}
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding-top: 105px;
+    box-sizing: border-box;
+  }
+
+@media screen and (max-width: 376px) {
+    .khan {
+       padding-top: 80px;}}
+     
+    

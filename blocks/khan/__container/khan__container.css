@@ -1,4 +1,9 @@
 .khan__container {
-  width: 80%;
-  padding-top: 105px;
-}
+    width: 80%;
+    box-sizing: border-box;
+  }
+
+@media screen and (max-width: 500px) {
+    .khan__container {
+       width: 90%;}}
+    

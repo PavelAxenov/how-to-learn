@@ -1,10 +1,7 @@
 .table__cell_theme_dark {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0;
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-  z-index: 1;
-}
+    width: 200px;
+    margin-right: 0;
+    margin-top: 80px;
+    list-style-type: none;
+    padding:0;
+  }

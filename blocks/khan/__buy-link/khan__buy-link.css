@@ -1,13 +1,26 @@
-
 .khan__buy-link {
-  line-height: 42px;
-  font-size: 30px;
-  font-weight: normal;
-  text-decoration: none;
-  color: #2f80ed;
-  transition: .5s;
-}
+    margin: 0 0 0 48px;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: normal;
+    color:#2f80de;
+    text-decoration: none;
+    transition: 0.5s linear;
+    box-sizing: border-box;
+    height: 50px;
+  }
 
 .khan__buy-link:hover {
-  opacity: .5;
-}
+    opacity: 0.5;}
+  
+
+@media screen and (max-width: 972px) {
+    .khan__buy-link {
+       margin: 20px 0 20px 0;
+       text-align: left;}}
+    
+@media screen and (max-width: 376px) {
+    .khan__buy-link {
+       margin: 20px 0 20px 0;}}
+     
+  

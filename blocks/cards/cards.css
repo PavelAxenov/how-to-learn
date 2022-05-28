@@ -1,8 +1,21 @@
 .cards {
-  min-width: 920px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 100px;
-  padding-left: 0;
-  margin: 0 auto;
-}
+    list-style-type: none;
+    padding: 0;
+    max-width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin:0;
+  }
+
+  @media screen and (max-width: 1148px) {
+    .cards {
+      justify-content: space-around;
+
+    }
+  }
+
+  /*@media screen and (max-width: 1028px) {
+    .cards {
+      max-width: 810px;
+    }
