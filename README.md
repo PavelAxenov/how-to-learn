@@ -7,4 +7,4 @@
 
 Далее планируется добавить данному сайту адаптивности.
 
-* [Ссылка на проект в Githab]( https://pavelaxenov.github.io/how-to-learn/index.html)
+* [Ссылка на проект в Githab](https://pavelaxenov.github.io/how-to-learn/)
